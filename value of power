@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main(void)
+{
+  int base,power;
+  double result;
+  printf("Enter the base: ");
+  scanf("%d",&base);
+  printf("Enter the power: ");
+  scanf("%d",&power);
+  result=pow(base, power);
+  printf("result is %lf",result);
+  return 0;
+}
